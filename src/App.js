@@ -1,19 +1,7 @@
-import "./App.css";
-import Container from "./Container.js";
-import Header from "./Header.js";
-import Hero from "./Hero.js";
-import Cards from "./Cards.js";
-import Footer from "./Footer.js";
+import SecondsCounter from "./SecondsCounter.js";
 
 function App() {
-  return (
-    <Container>
-      <Header />
-      <Hero />
-      <Cards />
-      <Footer />
-    </Container>
-  );
+  return <SecondsCounter seconds={3434} />;
 }
 
 export default App;

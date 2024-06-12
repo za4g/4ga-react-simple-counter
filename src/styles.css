@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+}
+
+.click-container {
+  display: flex;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+
+.clock-box,
+.time-box {
+  width: 150px;
+  height: 175px;
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  font-size: 96px;
+  border: 1px lightgray solid;
+  border-radius: 10px;
+}
